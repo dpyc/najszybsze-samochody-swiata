@@ -72,6 +72,14 @@ class DefaultController extends Controller
     {
         return $this->render('default/Hennessey-Venom-GT.html.twig');
     }
+    
+    /**
+     * @Route("/Shelby-Supercars-Ultimate-Aero.html", name="Shelby-Supercars-Ultimate-Aero")
+     */
+    public function ShelbyUltimateAeroAction()
+    {
+        return $this->render('default/Shelby-Supercars-Ultimate-Aero.html.twig');
+    }
     /**
      * end - Damian Pyc
      */
