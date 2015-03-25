@@ -64,7 +64,14 @@ class DefaultController extends Controller
     /**
      * Damian Pyc
      */
-
+ 
+    /**
+     * @Route("/Hennessey-Venom-GT.html", name="Hennessey-Venom-GT")
+     */
+    public function hennesseyvenomgtAction()
+    {
+        return $this->render('default/Hennessey-Venom-GT.html.twig');
+    }
     /**
      * end - Damian Pyc
      */
